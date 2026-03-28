@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            margin: 0px;
+        }
+
+        #container {
+            position: relative;
+            background-image: url('imagens/espaco.jpg');
+            height: 100vh;
+            background-size: cover;
+        }
+
+        #conteudo {
+            position: absolute;
+            background-image: url('imagens/astronauta.png');
+            width: 500px;
+            height: 500px;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /*
+                #container {
+            position: relative;
+            background-image: url('imagens/espaco.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-color: purple;
+        }
+
+        #conteudo {
+            position: absolute;
+            height: 500px;
+            width: 500px;
+            background-image: url('imagens/astronauta.png');
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        */
+    </style>
 </head>
 <body>
-    <div>
-        <img src="imagens/astronauta.png" alt="">
-    </div>    
+    <div id="container">
+        <div id="conteudo">
+
+        </div>
+    </div>
 </body>
 </html>
