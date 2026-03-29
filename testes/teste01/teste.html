@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            height: 200vh;
+            background-color: lightblue;
+        }
+
+        div#imagem {
+            margin: auto;
+            margin-top: 40px;
+            height: 600px;
+            width: 600px;
+            background: antiquewhite url('imagens/background001.jpg') center center fixed;
+            background-size: cover;
+            box-shadow: inset 0px 0px 8px 8px rgba(0, 0, 0, 0.39);
+            border: 1px solid black;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            border-radius: 100px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="imagem">
+
+    </div>
+</body>
+</html>
