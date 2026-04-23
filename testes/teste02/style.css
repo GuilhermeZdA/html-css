@@ -1,0 +1,40 @@
+@charset "UTf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    width: 100%;
+}
+
+div#flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+div#fundo {
+    height: 100%;
+    width: 100%;
+    background: black url("cinema-p.jpg") right center no-repeat;
+
+    position: relative;
+}
+
+div#preto {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right,black 50%, transparent);
+
+    position: absolute;
+}
+
+p {
+    color: white;
+}
